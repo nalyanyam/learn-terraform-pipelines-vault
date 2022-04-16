@@ -13,7 +13,8 @@ terraform {
     }
   }
 
-  required_version = "~> 0.14"
+  # Using terraform version 1.1.8
+  #required_version = "~> 0.14"
 }
 
 data "terraform_remote_state" "cluster" {
